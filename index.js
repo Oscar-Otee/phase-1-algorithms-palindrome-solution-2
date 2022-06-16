@@ -1,9 +1,17 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  string = word.toLowerCase().split("").reverse().join("");
+  if (string === word) {
+    return true;
+  }
+  else if (string !== word) {
+    return false;
+  }
 }
 
 /* 
   Add your pseudocode here
+  create a variable and assign it to word and the lowercase it, split it, reverse it, join it and finally return true if word is equal to string and false otherwise.
 */
 
 /*
